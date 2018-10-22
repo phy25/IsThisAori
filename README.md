@@ -65,6 +65,9 @@ There are only two labels: `android` and `ios`. This is indicated by puting into
 
 There is an extra evaluation set, from Bing Image Search, representing several occasions above. 15 for Android, 15 for iOS. Includes contacts interface, which never exists in the images for training.
 
+![Evaluation Image - Android](README-image-evaluation-android.png)
+![Evaluation Image - iOS](README-image-evaluation-ios.png)
+
 Web images usually include the phone's appearence, which (I think) is bad. This is the most significant challenges when grabing images online. The dataset doesn't include any of the phone's cover.
 
 ## Models (Systems)
@@ -103,7 +106,7 @@ Non-trainable params: 0
 
 Training metrics:
 
-![Training metrics of the first model](model-1-metrics.png)
+![Training metrics of the first model](README-model-1-metrics.png)
 
 Validate through training data (rand(om choices) ~ 50%):
 
@@ -173,7 +176,7 @@ Non-trainable params: 0
 
 Training metrics:
 
-![Training metrics of the second model](model-2-metrics.png)
+![Training metrics of the second model](README-model-2-metrics.png)
 
 Validate through training data (rand(om choices) ~ 50%):
 
