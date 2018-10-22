@@ -25,14 +25,16 @@ Firstly you need to install Python 3+, and some requirements (which is large, so
 $ pip install -r requirements.txt
 ```
 
+And you need to either download the dataset (images-v1.zip), or the model (model-1.hdf5 or model-2.hdf5) at Google Drive: https://drive.google.com/drive/folders/1MqeYuE2KYhQ5eNaotoPqPn236Zl6EohN?usp=sharing
+
 `main.py` is the main function code. If you want to adjust training configuration you should look inside and change it.
 
-`train.py` will train images under `images/train` folder. *You need to download the dataset first (TBD).*
+`train.py` will train images under `images/train` folder. You need to download the dataset first.
 
-`evaluate.py` can evaluate images under `images/evaluate` folder. *Also you can pass the path of the image (as the argument) or `stdin` the file to get prediction results. Or you can predict by:*
+`evaluate.py` can evaluate images under `images/evaluate` folder. *Also you can pass the path of the image (as the argument) or `stdin` the file to get prediction results. Or you can predict by: (TODO)*
 
 ```python
-# TBD
+# TODO
 import main
 result = main.evaluate('yunos.jpg')
 if result.label == 'android':
