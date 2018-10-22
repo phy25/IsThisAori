@@ -25,7 +25,7 @@ Firstly you need to install Python 3+, and some requirements (which is large, so
 $ pip install -r requirements.txt
 ```
 
-And you need to either download the dataset (images-v1.zip), or the model (model-1.hdf5 or model-2.hdf5) at Google Drive: https://drive.google.com/drive/folders/1MqeYuE2KYhQ5eNaotoPqPn236Zl6EohN?usp=sharing
+And you need to either download the dataset (images-v1.zip, and please unzip after downloading it), or the model (model-1.hdf5 or model-2.hdf5, by default the program will read model.hdf5) at Google Drive: https://drive.google.com/drive/folders/1MqeYuE2KYhQ5eNaotoPqPn236Zl6EohN?usp=sharing
 
 `main.py` is the main function code. If you want to adjust training configuration you should look inside and change it.
 
